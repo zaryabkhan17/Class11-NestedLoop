@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Loop</title>
+</head>
+
+<body>
+    <script>
+
+        var FirstName = ["zaryab ", "ibraheem ", "imtiaz "];
+        var LastName = ["khan", "ud din", "ur rehman"];
+        var FullName = [];
+        for (let i = 0; i < FirstName.length; i++) {
+            for (let j = 0; j < LastName.length; j++) {
+                FullName.push("<br>" + FirstName[i] + "&nbsp" + LastName[j])
+            }
+        }
+        document.write(FullName);
+
+    </script>
+</body>
+
+</html>
